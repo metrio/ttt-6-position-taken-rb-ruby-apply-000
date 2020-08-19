@@ -6,5 +6,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   
   if board == " " || ""
     FALSE
+  elsif board == "X" || "O"
+    TRUE
   end  
 end
